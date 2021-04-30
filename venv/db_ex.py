@@ -1,10 +1,12 @@
 #pip install pymongo
+#DB예시
 from pymongo import MongoClient
 from pymongo.cursor import CursorType
 
-host = "192.168.0.14"
-port = "27017"
-conn = MongoClient(host, int(port))
+#host = "192.168.0.14"
+#port = "27017"
+#conn = MongoClient(host, int(port))
+conn = MongoClient('mongodb://admin:Wjdqhqhdks1%21@54.214.152.193:27017')
 db = conn.get_database('neon')
 
 # 아래 조회 방법은 예시입니다.
