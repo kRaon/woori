@@ -9,6 +9,7 @@ from pymongo.cursor import CursorType
 conn = MongoClient('mongodb://admin:Wjdqhqhdks1%21@54.214.152.193:27017')
 db = conn.get_database('neon')
 
+print('test commit')
 # 아래 조회 방법은 예시입니다.
 """
 match = 줄리안이 jul_date고 년도가 x년부터 y년까지
